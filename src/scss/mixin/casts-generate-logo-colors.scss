@@ -1,0 +1,24 @@
+@import "casts-generate-logo-color";
+
+@mixin cast-generate-logo-colors($name,
+
+                        $color: null, $tube-color: null, $tube-bg: null,
+                        $dm-color: null, $ext-color: null,
+
+                        $color-h: null, $tube-color-h: null, $tube-bg-h: null,
+                        $dm-color-h: null, $ext-color-h: null) {
+
+  @if $color and not $tube-bg { $tube-bg: $color; }
+  @if $color-h and not $tube-bg-h { $tube-bg-h: $color-h; }
+
+  .casts-logo.#{$name} {
+    @include cast-generate-logo-color($color, $tube-color, $tube-bg, $dm-color, $ext-color);
+  }
+
+  @if $color-h or $tube-color-h or $tube-bg-h or $dm-color-h or $ext-color-h {
+    .casts-logo.#{$name}:hover {
+      @include cast-generate-logo-color($color-h, $tube-color-h, $tube-bg-h, $dm-color-h, $ext-color-h);
+    }
+  }
+
+}

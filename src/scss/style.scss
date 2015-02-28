@@ -1,0 +1,53 @@
+@import "casts-logo";
+
+$sites: (
+  (www, black, #353535),
+  (designer, #ff581f, #ff7329),
+  (webdesigner, #e94d15, #ff5417),
+  (photoshop, #3b5188, #4b77bc),
+  (illustrator, #FF771A, #FF771A),
+  (infra, #5075ea, #254eff),
+  (code, #6B3A1C, #864f21),
+  (php, #6082bb, #6b90ce),
+  (laravel, #F98778, #fd8b78),
+  (python, #387aa6, #3882ae),
+  (rails, #c52f24, #e23226),
+  (vim, green, #009300),
+  (javascript, #c9ac36, #d6ba34),
+  (node, #6ea901, #7ebd01),
+);
+
+@each $site in $sites {
+  @include cast-generate-logo-colors(nth($site, 1), $color: nth($site, 2), $color-h: nth($site, 3));
+  @include cast-generate-logo-colors(nth($site, 1) + -reverse, $color: white, $color-h: white,
+                                     $tube-color: nth($site, 2), $tube-color-h: nth($site, 3));
+
+  .#{nth($site, 1)}.bg {
+    background: nth($site, 2);
+  }
+}
+
+.container {
+  margin: 30px auto;
+  text-align: center;
+  display: table;
+}
+
+header .casts-logo {
+  font-size: 120px;
+}
+
+ul {
+  float: left;
+  &.normal {
+    li {
+      background: white;
+    }
+  }
+  list-style: none;
+  text-align: right;
+
+  li {
+    padding: 10px;
+  }
+}

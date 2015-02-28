@@ -1,0 +1,40 @@
+doctype html
+
+mixin cast-logo-tube
+  span.tube
+    span.dm casts
+    span.ext .com.br
+
+mixin cast-logo(displayname)
+  span.sd
+    | #{displayname}.
+    +cast-logo-tube
+
+html
+  head
+    meta(charset='utf-8')
+    meta(description='Library Casts Logo')
+    link(href='css/style.css', rel='stylesheet')
+    title Library Casts Logo
+
+    body
+      .container
+        header
+          h1 Library Casts Logo
+
+          .casts-logo
+            +cast-logo-tube
+
+        - sites = ['Designer', 'WebDesigner', 'Photoshop', 'Illustrator', 'Infra', 'Code', 'PHP', 'Laravel', 'Python', 'Rails', 'VIM', 'JavaScript', 'Node']
+
+        ul.normal
+          each displayname in sites
+            li: a(class="casts-logo #{displayname.toLowerCase()}" href="#")
+              +cast-logo(displayname)
+
+        ul.reverse
+          each displayname in sites
+            li(class="#{displayname.toLowerCase()} bg")
+              a(class="casts-logo #{displayname.toLowerCase()}-reverse" href="#")
+                +cast-logo(displayname)
+

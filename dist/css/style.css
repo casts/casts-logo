@@ -1,0 +1,540 @@
+a.casts-logo {
+  color: black;
+  text-decoration: none;
+}
+
+.casts-logo {
+  color: black;
+  display: inline-block;
+  font-size: 100%;
+  font: bold 25px/1.1 "Helvetica Neue", "Arial", sans-serif;
+  margin: 0;
+}
+.casts-logo .sd {
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+.casts-logo .sd .tube {
+  margin-left: 0.05em;
+}
+.casts-logo .tube {
+  background: black;
+  background-size: cover !important;
+  border-radius: 0.2em;
+  color: white;
+  display: table;
+  padding: 0.2em 0.3em;
+  text-transform: uppercase;
+}
+.casts-logo .tube span {
+  display: block;
+  text-align: right;
+}
+.casts-logo .dm {
+  font-size: 0.75em;
+}
+.casts-logo .ext {
+  font-size: 0.44em;
+}
+
+.casts-logo.www {
+  color: black;
+}
+.casts-logo.www .tube {
+  background: black;
+}
+
+.casts-logo.www:hover {
+  color: #353535;
+}
+.casts-logo.www:hover .tube {
+  background: #353535;
+}
+
+.casts-logo.www-reverse {
+  color: white;
+}
+.casts-logo.www-reverse .tube {
+  background: white;
+  color: black;
+}
+
+.casts-logo.www-reverse:hover {
+  color: white;
+}
+.casts-logo.www-reverse:hover .tube {
+  background: white;
+  color: #353535;
+}
+
+.www.bg {
+  background: black;
+}
+
+.casts-logo.designer {
+  color: #ff581f;
+}
+.casts-logo.designer .tube {
+  background: #ff581f;
+}
+
+.casts-logo.designer:hover {
+  color: #ff7329;
+}
+.casts-logo.designer:hover .tube {
+  background: #ff7329;
+}
+
+.casts-logo.designer-reverse {
+  color: white;
+}
+.casts-logo.designer-reverse .tube {
+  background: white;
+  color: #ff581f;
+}
+
+.casts-logo.designer-reverse:hover {
+  color: white;
+}
+.casts-logo.designer-reverse:hover .tube {
+  background: white;
+  color: #ff7329;
+}
+
+.designer.bg {
+  background: #ff581f;
+}
+
+.casts-logo.webdesigner {
+  color: #e94d15;
+}
+.casts-logo.webdesigner .tube {
+  background: #e94d15;
+}
+
+.casts-logo.webdesigner:hover {
+  color: #ff5417;
+}
+.casts-logo.webdesigner:hover .tube {
+  background: #ff5417;
+}
+
+.casts-logo.webdesigner-reverse {
+  color: white;
+}
+.casts-logo.webdesigner-reverse .tube {
+  background: white;
+  color: #e94d15;
+}
+
+.casts-logo.webdesigner-reverse:hover {
+  color: white;
+}
+.casts-logo.webdesigner-reverse:hover .tube {
+  background: white;
+  color: #ff5417;
+}
+
+.webdesigner.bg {
+  background: #e94d15;
+}
+
+.casts-logo.photoshop {
+  color: #3b5188;
+}
+.casts-logo.photoshop .tube {
+  background: #3b5188;
+}
+
+.casts-logo.photoshop:hover {
+  color: #4b77bc;
+}
+.casts-logo.photoshop:hover .tube {
+  background: #4b77bc;
+}
+
+.casts-logo.photoshop-reverse {
+  color: white;
+}
+.casts-logo.photoshop-reverse .tube {
+  background: white;
+  color: #3b5188;
+}
+
+.casts-logo.photoshop-reverse:hover {
+  color: white;
+}
+.casts-logo.photoshop-reverse:hover .tube {
+  background: white;
+  color: #4b77bc;
+}
+
+.photoshop.bg {
+  background: #3b5188;
+}
+
+.casts-logo.illustrator {
+  color: #FF771A;
+}
+.casts-logo.illustrator .tube {
+  background: #FF771A;
+}
+
+.casts-logo.illustrator:hover {
+  color: #FF771A;
+}
+.casts-logo.illustrator:hover .tube {
+  background: #FF771A;
+}
+
+.casts-logo.illustrator-reverse {
+  color: white;
+}
+.casts-logo.illustrator-reverse .tube {
+  background: white;
+  color: #FF771A;
+}
+
+.casts-logo.illustrator-reverse:hover {
+  color: white;
+}
+.casts-logo.illustrator-reverse:hover .tube {
+  background: white;
+  color: #FF771A;
+}
+
+.illustrator.bg {
+  background: #FF771A;
+}
+
+.casts-logo.infra {
+  color: #5075ea;
+}
+.casts-logo.infra .tube {
+  background: #5075ea;
+}
+
+.casts-logo.infra:hover {
+  color: #254eff;
+}
+.casts-logo.infra:hover .tube {
+  background: #254eff;
+}
+
+.casts-logo.infra-reverse {
+  color: white;
+}
+.casts-logo.infra-reverse .tube {
+  background: white;
+  color: #5075ea;
+}
+
+.casts-logo.infra-reverse:hover {
+  color: white;
+}
+.casts-logo.infra-reverse:hover .tube {
+  background: white;
+  color: #254eff;
+}
+
+.infra.bg {
+  background: #5075ea;
+}
+
+.casts-logo.code {
+  color: #6B3A1C;
+}
+.casts-logo.code .tube {
+  background: #6B3A1C;
+}
+
+.casts-logo.code:hover {
+  color: #864f21;
+}
+.casts-logo.code:hover .tube {
+  background: #864f21;
+}
+
+.casts-logo.code-reverse {
+  color: white;
+}
+.casts-logo.code-reverse .tube {
+  background: white;
+  color: #6B3A1C;
+}
+
+.casts-logo.code-reverse:hover {
+  color: white;
+}
+.casts-logo.code-reverse:hover .tube {
+  background: white;
+  color: #864f21;
+}
+
+.code.bg {
+  background: #6B3A1C;
+}
+
+.casts-logo.php {
+  color: #6082bb;
+}
+.casts-logo.php .tube {
+  background: #6082bb;
+}
+
+.casts-logo.php:hover {
+  color: #6b90ce;
+}
+.casts-logo.php:hover .tube {
+  background: #6b90ce;
+}
+
+.casts-logo.php-reverse {
+  color: white;
+}
+.casts-logo.php-reverse .tube {
+  background: white;
+  color: #6082bb;
+}
+
+.casts-logo.php-reverse:hover {
+  color: white;
+}
+.casts-logo.php-reverse:hover .tube {
+  background: white;
+  color: #6b90ce;
+}
+
+.php.bg {
+  background: #6082bb;
+}
+
+.casts-logo.laravel {
+  color: #F98778;
+}
+.casts-logo.laravel .tube {
+  background: #F98778;
+}
+
+.casts-logo.laravel:hover {
+  color: #fd8b78;
+}
+.casts-logo.laravel:hover .tube {
+  background: #fd8b78;
+}
+
+.casts-logo.laravel-reverse {
+  color: white;
+}
+.casts-logo.laravel-reverse .tube {
+  background: white;
+  color: #F98778;
+}
+
+.casts-logo.laravel-reverse:hover {
+  color: white;
+}
+.casts-logo.laravel-reverse:hover .tube {
+  background: white;
+  color: #fd8b78;
+}
+
+.laravel.bg {
+  background: #F98778;
+}
+
+.casts-logo.python {
+  color: #387aa6;
+}
+.casts-logo.python .tube {
+  background: #387aa6;
+}
+
+.casts-logo.python:hover {
+  color: #3882ae;
+}
+.casts-logo.python:hover .tube {
+  background: #3882ae;
+}
+
+.casts-logo.python-reverse {
+  color: white;
+}
+.casts-logo.python-reverse .tube {
+  background: white;
+  color: #387aa6;
+}
+
+.casts-logo.python-reverse:hover {
+  color: white;
+}
+.casts-logo.python-reverse:hover .tube {
+  background: white;
+  color: #3882ae;
+}
+
+.python.bg {
+  background: #387aa6;
+}
+
+.casts-logo.rails {
+  color: #c52f24;
+}
+.casts-logo.rails .tube {
+  background: #c52f24;
+}
+
+.casts-logo.rails:hover {
+  color: #e23226;
+}
+.casts-logo.rails:hover .tube {
+  background: #e23226;
+}
+
+.casts-logo.rails-reverse {
+  color: white;
+}
+.casts-logo.rails-reverse .tube {
+  background: white;
+  color: #c52f24;
+}
+
+.casts-logo.rails-reverse:hover {
+  color: white;
+}
+.casts-logo.rails-reverse:hover .tube {
+  background: white;
+  color: #e23226;
+}
+
+.rails.bg {
+  background: #c52f24;
+}
+
+.casts-logo.vim {
+  color: green;
+}
+.casts-logo.vim .tube {
+  background: green;
+}
+
+.casts-logo.vim:hover {
+  color: #009300;
+}
+.casts-logo.vim:hover .tube {
+  background: #009300;
+}
+
+.casts-logo.vim-reverse {
+  color: white;
+}
+.casts-logo.vim-reverse .tube {
+  background: white;
+  color: green;
+}
+
+.casts-logo.vim-reverse:hover {
+  color: white;
+}
+.casts-logo.vim-reverse:hover .tube {
+  background: white;
+  color: #009300;
+}
+
+.vim.bg {
+  background: green;
+}
+
+.casts-logo.javascript {
+  color: #c9ac36;
+}
+.casts-logo.javascript .tube {
+  background: #c9ac36;
+}
+
+.casts-logo.javascript:hover {
+  color: #d6ba34;
+}
+.casts-logo.javascript:hover .tube {
+  background: #d6ba34;
+}
+
+.casts-logo.javascript-reverse {
+  color: white;
+}
+.casts-logo.javascript-reverse .tube {
+  background: white;
+  color: #c9ac36;
+}
+
+.casts-logo.javascript-reverse:hover {
+  color: white;
+}
+.casts-logo.javascript-reverse:hover .tube {
+  background: white;
+  color: #d6ba34;
+}
+
+.javascript.bg {
+  background: #c9ac36;
+}
+
+.casts-logo.node {
+  color: #6ea901;
+}
+.casts-logo.node .tube {
+  background: #6ea901;
+}
+
+.casts-logo.node:hover {
+  color: #7ebd01;
+}
+.casts-logo.node:hover .tube {
+  background: #7ebd01;
+}
+
+.casts-logo.node-reverse {
+  color: white;
+}
+.casts-logo.node-reverse .tube {
+  background: white;
+  color: #6ea901;
+}
+
+.casts-logo.node-reverse:hover {
+  color: white;
+}
+.casts-logo.node-reverse:hover .tube {
+  background: white;
+  color: #7ebd01;
+}
+
+.node.bg {
+  background: #6ea901;
+}
+
+.container {
+  margin: 30px auto;
+  text-align: center;
+  display: table;
+}
+
+header .casts-logo {
+  font-size: 120px;
+}
+
+ul {
+  float: left;
+  list-style: none;
+  text-align: right;
+}
+ul.normal li {
+  background: white;
+}
+ul li {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

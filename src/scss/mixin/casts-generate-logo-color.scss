@@ -1,0 +1,14 @@
+@mixin cast-generate-logo-color($color: null, $tube-color: null, $tube-bg: null,
+                       $dm-color: null, $ext-color: null) {
+
+  @if $color { color: $color; }
+  @if not $tube-bg { $tube-bg: $color; }
+
+  .tube {
+    background: $tube-bg;
+    @if $tube-color and not ($dm-color and $ext-color) { color: $tube-color; }
+    @if $dm-color { .dm { color: $dm-color; } }
+    @if $ext-color { .ext { color: $ext-color; } }
+  }
+
+}
