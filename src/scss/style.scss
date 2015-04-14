@@ -15,6 +15,11 @@ $sites: (
   (vim, green, #009300),
   (javascript, #c9ac36, #d6ba34),
   (node, #6ea901, #7ebd01),
+  (mysql, #015A84, #015A84),
+  (postgresql, #0085b2, #0085b2),
+  (support, #888, #888),
+  (database, #1e77b2, #1e77b2)
+
 );
 
 @each $site in $sites {

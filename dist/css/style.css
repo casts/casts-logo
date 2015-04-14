@@ -515,6 +515,142 @@ a.casts-logo {
   background: #6ea901;
 }
 
+.casts-logo.mysql {
+  color: #015A84;
+}
+.casts-logo.mysql .tube {
+  background: #015A84;
+}
+
+.casts-logo.mysql:hover {
+  color: #015A84;
+}
+.casts-logo.mysql:hover .tube {
+  background: #015A84;
+}
+
+.casts-logo.mysql-reverse {
+  color: white;
+}
+.casts-logo.mysql-reverse .tube {
+  background: white;
+  color: #015A84;
+}
+
+.casts-logo.mysql-reverse:hover {
+  color: white;
+}
+.casts-logo.mysql-reverse:hover .tube {
+  background: white;
+  color: #015A84;
+}
+
+.mysql.bg {
+  background: #015A84;
+}
+
+.casts-logo.postgresql {
+  color: #0085b2;
+}
+.casts-logo.postgresql .tube {
+  background: #0085b2;
+}
+
+.casts-logo.postgresql:hover {
+  color: #0085b2;
+}
+.casts-logo.postgresql:hover .tube {
+  background: #0085b2;
+}
+
+.casts-logo.postgresql-reverse {
+  color: white;
+}
+.casts-logo.postgresql-reverse .tube {
+  background: white;
+  color: #0085b2;
+}
+
+.casts-logo.postgresql-reverse:hover {
+  color: white;
+}
+.casts-logo.postgresql-reverse:hover .tube {
+  background: white;
+  color: #0085b2;
+}
+
+.postgresql.bg {
+  background: #0085b2;
+}
+
+.casts-logo.support {
+  color: #888;
+}
+.casts-logo.support .tube {
+  background: #888;
+}
+
+.casts-logo.support:hover {
+  color: #888;
+}
+.casts-logo.support:hover .tube {
+  background: #888;
+}
+
+.casts-logo.support-reverse {
+  color: white;
+}
+.casts-logo.support-reverse .tube {
+  background: white;
+  color: #888;
+}
+
+.casts-logo.support-reverse:hover {
+  color: white;
+}
+.casts-logo.support-reverse:hover .tube {
+  background: white;
+  color: #888;
+}
+
+.support.bg {
+  background: #888;
+}
+
+.casts-logo.database {
+  color: #1e77b2;
+}
+.casts-logo.database .tube {
+  background: #1e77b2;
+}
+
+.casts-logo.database:hover {
+  color: #1e77b2;
+}
+.casts-logo.database:hover .tube {
+  background: #1e77b2;
+}
+
+.casts-logo.database-reverse {
+  color: white;
+}
+.casts-logo.database-reverse .tube {
+  background: white;
+  color: #1e77b2;
+}
+
+.casts-logo.database-reverse:hover {
+  color: white;
+}
+.casts-logo.database-reverse:hover .tube {
+  background: white;
+  color: #1e77b2;
+}
+
+.database.bg {
+  background: #1e77b2;
+}
+
 .container {
   margin: 30px auto;
   text-align: center;

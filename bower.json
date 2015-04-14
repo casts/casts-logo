@@ -1,0 +1,27 @@
+{
+  "name": "casts-logo",
+  "version": "0.0.1",
+  "homepage": "https://github.com/casts/casts-logo",
+  "authors": [
+    "Anderson Custódio <contato@andersoncustodio.com>"
+  ],
+  "description": "Casts Logo",
+  "main": [
+    "src/scss/casts-logo.scss"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "casts",
+    "logo"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
