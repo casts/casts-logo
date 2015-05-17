@@ -6,6 +6,8 @@ a.casts-logo {
 }
 
 .casts-logo {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   color: black;
   display: inline-block;
   font-size: 100%;
